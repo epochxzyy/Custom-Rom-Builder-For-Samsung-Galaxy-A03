@@ -56,8 +56,8 @@ jobs:
       run: |
         cd lpbinary/binary
         wget ${{ github.event.inputs.VENDOR }} -O vendor.img
-        wget https://cdn.pixeldrain.eu.cc/YzYCwmYy -O product.img
-        wget https://cdn.pixeldrain.eu.cc/AzEv56bs -O system_ext.img
+        wget https://buzzheavier.com/acmx427m4ryf -O product.img
+        wget https://buzzheavier.com/xfai3iktjejo -O system_ext.img
     - name: Packing
       run: |
         cd lpbinary/binary
