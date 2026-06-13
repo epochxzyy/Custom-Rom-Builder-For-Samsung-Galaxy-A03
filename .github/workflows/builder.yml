@@ -55,9 +55,9 @@ jobs:
     - name: Preparing Files
       run: |
         cd lpbinary/binary
-        wget ${{ github.event.inputs.VENDOR }} -0 vendor.img
-        wget https://cdn.pixeldrain.eu.cc/YzYCwmYy -0 product.img
-        wget https://cdn.pixeldrain.eu.cc/AzEv56bs -0 system_ext.img
+        wget ${{ github.event.inputs.VENDOR }} -O vendor.img
+        wget https://cdn.pixeldrain.eu.cc/YzYCwmYy -O product.img
+        wget https://cdn.pixeldrain.eu.cc/AzEv56bs -O system_ext.img
     - name: Packing
       run: |
         cd lpbinary/binary
