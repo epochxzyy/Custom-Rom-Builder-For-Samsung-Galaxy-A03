@@ -56,8 +56,8 @@ jobs:
       run: |
         cd lpbinary/binary
         wget ${{ github.event.inputs.VENDOR }} -O vendor.img
-        wget https://buzzheavier.com/acmx427m4ryf -O product.img
-        wget https://buzzheavier.com/xfai3iktjejo -O system_ext.img
+        wget https://fafda.to/d/acmx427m4ryf?v=JImqJ5VFi4U1JHg8DNr9qnOs4gSNV1wCPBG1oTozQlSDFPrD1UaBwQcWft9VsJ-1q0gO_IKOvS8vXmnYaioRPcyw4iR5oLe7QHxLl_UTUfmj6tl8UYRZ14L_M6NcXyTdGR9gea6xawDP -O product.img
+        wget https://fafda.to/d/xfai3iktjejo?v=uiOZNjHIQxAIFSKSX9ZusGYvjeTQTOGbfkDXA-LScQ4SB3iG5jElFktFS1AlsF3oRRKQMxIduaMXuATEm9xqgrZ5-DJnxeSZSXVe1GuR8ePYbozjmTLW-9UI22LxpwHKDOhJBNelqkpQ0yip4awF -O system_ext.img
     - name: Packing
       run: |
         cd lpbinary/binary
