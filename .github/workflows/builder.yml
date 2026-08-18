@@ -58,7 +58,7 @@ jobs:
     - name: Preparing Files
       run: |
         cd lpbinary/binary
-        wget ${{ github.event.inputs.VENDOR }}
+        wget "${{ github.event.inputs.VENDOR }}" -O vendor.img
         gdown "https://drive.google.com/uc?id=135vkcLy5NkLpD-fTXi522AYRVMa_JDjd" -O product.img
         gdown "https://drive.google.com/uc?id=1mrSZVfm7xcNueyYtyXY3erpIKR58f8Zr" -O system_ext.img
     - name: Packing
